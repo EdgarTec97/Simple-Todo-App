@@ -69,3 +69,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 -   php artisan migrate:rollback
 -   php artisan migrate
 -   php artisan make:controller TodosController
+-   php artisan make:model Category -m
+-   php artisan make:controller CategoriesController --resource
+-   php artisan route:list
+-   php artisan migrate:status
+-   php artisan migrate
+-   php artisan make:migration add_category_id_to_todos_table --table=todos
+-   php artisan migrate
